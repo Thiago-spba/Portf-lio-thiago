@@ -1,0 +1,1 @@
+Este é o meu portfólio interativo, onde compartilho minha jornada de transição de carreira da História para a Engenharia da Computação. Aqui você encontrará informações sobre minha formação, experiências e paixões que me impulsionam nessa jornada.
