@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Interativo - Thiago Fernando</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.16/tailwind.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+    <link rel="stylesheet" href="styles.css"> <!-- Arquivo CSS atualizado -->
+</head>
+<body>
+    <header class="bg-primary py-8 px-4 sm:px-8 md:px-12">
+        <div class="flex items-center">
+            <img src="thiago-fernando.jpeg" alt="Foto do Profissional" class="rounded-full w-36 h-36 mr-6">
+            <div>
+                <h1 class="text-3xl font-bold">Thiago Fernando</h1>
+                <p class="text-lg">Licenciado em História & Futuro Engenharia da Computação</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto py-12 px-4 sm:px-8 md:px-12">
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold mb-4">Sobre Mim</h2>
+
+<div class="texto-encurtavel" id="texto-sobre-mim">
+
+Sou um profissional cuja paixão pela História se entrelaça com o fascínio pelo potencial transformador da tecnologia. Com uma base sólida em História, busco agora expandir meus horizontes na Engenharia da Computação, com o objetivo de criar soluções inovadoras que conectem essas duas áreas de conhecimento, promovendo uma compreensão mais profunda e acessível do passado.
+
+Acredito que a tecnologia pode ser uma ferramenta poderosa para enriquecer o ensino e a compreensão da História, tornando-a mais acessível e envolvente para todos. Visualizo um futuro em que ferramentas digitais preservam e divulgam o patrimônio histórico, experiências imersivas transportam as pessoas para diferentes épocas e culturas, e o acesso a fontes primárias e pesquisas acadêmicas é facilitado, democratizando o conhecimento histórico e levando-o a comunidades antes excluídas dessa narrativa.
+
+<p style="margin-bottom: 20px;"></p>Além disso, vejo a educação como um dos pilares fundamentais para a transformação social, e a tecnologia desempenha um papel crucial nessa jornada, permitindo que a História seja valorizada como uma ferramenta essencial para a compreensão do presente e a construção de um mundo mais justo e equitativo.
+
+A interseção entre tecnologia, educação e história é um campo de possibilidades infinitas. Ao unir essas áreas, acredito que podemos criar experiências educacionais que não apenas informem, mas inspirem gerações futuras a agir para um mundo melhor. 
+
+<p style="margin-bottom: 20px;"></p>Ao longo da minha jornada, pretendo desenvolver projetos que utilizem a tecnologia para contar histórias que importam e empoderar indivíduos a se tornarem agentes de mudança em suas comunidades. A combinação da minha paixão pela História com as habilidades que adquirirei na Engenharia me permitirá construir pontes entre o passado e o futuro, contribuindo para um futuro em que a História seja não apenas lembrada, mas vivenciada e utilizada como guia para um amanhã mais promissor.
+
+</div> 
+
+            <button class="continuar-lendo" onclick="expandirTexto('texto-sobre-mim', this)">Continuar Lendo...</button>
+        </section>
+
+        <!-- Seção de Formação com "Continuar Lendo" -->
+<section class="mb-12">
+    <h2 class="text-2xl font-bold mb-4">Formação</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+
+        <!-- Licenciatura em História -->
+        <div>
+            <h3 class="text-xl font-bold mb-2 text-primary">Licenciatura em História</h3>
+            <p>Centro Universitário Anhanguera Pitágoras Ampli</p>
+            <p>Concluído em Abril de 2024.</p>
+        
+            <div class="texto-encurtavel" id="texto-historia">
+                <p style="margin-bottom: 20px;">Minha trajetória acadêmica reflete uma busca constante por conhecimento e aprimoramento, impulsionada por paixões que se complementam.</p>
+        
+                <p>Sou graduado em Licenciatura em História, com uma pós-graduação em Metodologia de Ensino de História. Essa formação me proporcionou uma base sólida na compreensão do passado e nas melhores práticas para transmiti-lo de forma eficaz.</p>
+        
+                <p style="margin-bottom: 20px;">Minha graduação em História foi uma jornada fascinante através do tempo, explorando desde as grandiosas civilizações da antiguidade, como o Egito dos faraós e a Grécia de Péricles, até os complexos eventos da era contemporânea, como as Guerras Mundiais e a ascensão da globalização. Cada período histórico, com suas peculiaridades e desafios, me cativou e instigou minha curiosidade.</p>
+        
+                <p>Ao longo do curso, tive a oportunidade de participar de projetos e pesquisas que me permitiram ir além da leitura de livros e artigos. Mergulhei em arquivos históricos, analisando documentos originais e desvendando as nuances de diferentes épocas. Investiguei temas como a escravidão no Brasil colonial, o papel das mulheres na Revolução Francesa e os impactos da tecnologia na sociedade contemporânea. Essas experiências práticas não apenas aprofundaram meu conhecimento, mas também me ensinaram a pensar criticamente, questionar narrativas estabelecidas e buscar diferentes perspectivas.</p>
+        
+                <p style="margin-bottom: 20px;">Além disso, a graduação me proporcionou um contato enriquecedor com diversas metodologias de ensino e pesquisa histórica.</p>
+                
+                <p style="margin-bottom: 20px;">Desde a análise de fontes primárias até a utilização de ferramentas digitais para a visualização de dados e a criação de narrativas interativas, pude experimentar diferentes abordagens para tornar a História mais acessível e envolvente.</p>
+                
+            </div>
+        
+            <button class="continuar-lendo" onclick="expandirTexto('texto-historia', this)">Continuar Lendo</button>
+        </div>
+        
+        <!-- Engenharia -->
+        <div>
+            <h3 class="text-xl font-bold mb-2 text-primary">Engenharia</h3>
+            <p>Universidade Celso Lisboa</p>
+            <p>Graduação com Previsão em 2028</p>
+            <div class="texto-encurtavel" id="texto-engenharia">
+                <p style="margin-bottom: 20px;"></p>Atualmente, estou mergulhando no mundo da Tecnologia, buscando adquirir as habilidades necessárias para desenvolver soluções tecnológicas e inovadoras.</p>
+                <p style="margin-bottom: 20px;"></p><p>Tenho grande interesse em adiquirir e aplicar meus conhecimentos para criar um impacto positivo na sociedade. Estou ansioso para colaborar em projetos desafiadores e continuar aprendendo ao longo de minha carreira.</p>
+            </div>
+            <button class="continuar-lendo" onclick="expandirTexto('texto-engenharia', this)">Continuar Lendo</button>
+        </div>
+    </div>
+</section>
+
+
+        <!-- Novos Cards: Cursos Extra Curriculares e Vida Pessoal -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold mb-4"></h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <!-- Cursos Extra Curriculares -->
+                <div>
+                    <h3 class="text-xl font-bold mb-2 text-primary">Cursos Extra Curriculares</h3>
+                    <div class="texto-encurtavel" id="texto-cursos">
+                        <p><h2>Minha jornada na Alura</h2>
+                            <p style="margin-bottom: 20px;">
+                            <p style="margin-bottom: 20px;">Aprimorando minhas habilidades em programação, desenvolvimento web e gestão de carreira através dos cursos da Alura. A Alura tem sido fundamental para meu crescimento profissional, me proporcionando o conhecimento necessário para trilhar um caminho de sucesso na área de tecnologia.</p>
+                            <p style="margin-bottom: 20px;"></p><ul>
+                            <li>Lógica de programação: explore funções e listas.</li>
+                            <li>Foco: trazendo mais resultados para o dia a dia.</li>
+                            <li>Git e GitHub: compartilhando e colaborando em projetos.</li>
+                            <li>HTML e CSS: ambientes de desenvolvimento, estrutura de arquivos e tags.</li>
+                            <li>HTML e CSS: trabalhando com responsividade e publicação de projetos.</li>
+                            <li>HTML e CSS: cabeçalho, footer e variáveis CSS.</li>
+                            <li>Hábitos: da produtividade às metas pessoais.</li>
+                            <li>ChatGPT: otimizando a qualidade dos resultados.</li>
+                            <li>HTML e CSS: Classes, posicionamento e Flexbox.</li>
+                            <li>Aprender a aprender: técnicas para seu autodesenvolvimento.</li>
+                            <li>LinkedIn: como fazer o seu perfil trabalhar para você.</li>
+                            <li>CSS: Flexbox e layouts responsivos.</li>
+                            <li>IA generativa no Front-end: trabalhando com acessibilidade, semântica e HTML.</li>
+                            <li>Lógica de programação: mergulhe em programação com JavaScript.</li>
+                            <li>Empreendedorismo: da ideia ao plano de negócios.</li>
+                            <li>Gestão Ágil: explorando conceitos da agilidade.</li>
+                            <li>Transição de carreira: um guia para a área da tecnologia.</li>
+                            <li>Propósito profissional: seja protagonista da sua carreira.</li>
+                            <li>Desenvolvimento de carreira: a demanda do mercado.</li>
+                            <li>Praticando lógica de programação: Challenge Decodificador de Texto.</li>
+                            <p style="margin-bottom: 20px;"></p></ul>
+                            <p style="margin-bottom: 20px;">Atualmente, continuo me desafiando com o projeto "Praticando Front End". Oracle Next Education</li>
+                            </ul>
+                    </div>
+                    <button class="continuar-lendo" onclick="expandirTexto('texto-cursos', this)">Continuar Lendo...</button>
+                </div>
+
+                <!-- Vida Pessoal -->
+                <div>
+                    <h3 class="text-xl font-bold mb-2 text-primary">Vida Pessoal</h3>
+                        <div class="texto-encurtavel" id="texto-motivacao-familia">
+                            <p>A jornada de aprendizado constante é desafiadora, mas minha família, em especial minha esposa e meus filhos, é meu alicerce e motivação para superar obstáculos e me dedicar aos estudos.</p>
+                            <p style="margin-bottom: 20px;"><p>Além da paixão pela Engenharia, valorizo meu papel como pai e marido, buscando o equilíbrio entre a vida acadêmica e familiar.</p> 
+                            <p style="margin-bottom: 20px;"></p>Acredito no poder do trabalho em equipe e estou sempre disposto a enfrentar novos desafios, aplicar meu conhecimento e trocar experiências com outros profissionais. Acompanho de perto a evolução da tecnologia para me manter atualizado e ser um engenheiro completo, contribuindo para um futuro melhor.</p>
+                            <p style="margin-bottom: 20px;"><p>Compartilho minha vida particular e aprendizados em minhas redes sociais, como TikTok, Facebook e LinkedIn. Sinta-se à vontade para me adicionar e conversarmos!</p>
+                            </div>
+                        <button class="continuar-lendo" onclick="expandirTexto('texto-motivacao-familia', this)">Continuar Lendo...</button>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-xl font-bold mb-2 text-primary">Colaboração e Futuro</h3>
+                        <div class="texto-encurtavel" id="texto-colaboracao-futuro">
+                            <p>Acredito no poder do trabalho em equipe, sempre pronto para colaborar, compartilhar conhecimentos e enfrentar novos desafios. Acompanho de perto as tendências tecnológicas, buscando aprimorar minhas habilidades e me tornar um engenheiro cada vez mais completo e preparado para contribuir com um futuro melhor.</p> 
+                            <p style="margin-bottom: 20px;"><p>
+                                A paixão e a dedicação nos proporcionam a visão de longo prazo necessária para alcançar nossos sonhos. Elas nos permitem enxergar além das dificuldades imediatas, focando no objetivo final e nos inspirando a continuar em frente, mesmo quando o caminho parece incerto. Com paixão, dedicação e uma visão clara do futuro, podemos transformar nossos sonhos mais ousados em conquistas extraordinárias.</p>
+                                <p style="margin-bottom: 20px;"><p>Com dedicação, paixão pelo aprendizado e uma visão de longo prazo, transformamos sonhos em realidade.</p>
+                            </div>
+                        <button class="continuar-lendo" onclick="expandirTexto('texto-colaboracao-futuro', this)">Continuar Lendo...</button>
+                    </div>
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold mb-4">Contato</h2>
+            <form action="mailto:thiago.rpba@gmail.com" method="post" enctype="text/plain">
+                <div class="mb-4">
+                    <label for="assunto" class="block text-sm font-medium text-gray-300">Assunto:</label>
+                    <input type="text" id="assunto" name="assunto" class="mt-1 p-2 w-full border rounded-md bg-gray-800 text-white focus:outline-none focus:ring focus:border-blue-300">
+                </div>
+                <div class="mb-4">
+                    <label for="mensagem" class="block text-sm font-medium text-gray-300">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" class="mt-1 p-2 w-full border rounded-md bg-gray-800 text-white focus:outline-none focus:ring focus:border-blue-300"></textarea>
+                </div>
+                <button type="submit" class="bg-secondary hover:bg-red-600 text-white font-bold py-2 px-4 rounded">
+                    Enviar
+                </button>
+            </form>
+        </section>
+    </main>
+  <footer class="bg-primary py-4 px-4 sm:px-8 md:px-12">
+        <div class="flex flex-col items-center">
+            <div class="social-icons flex justify-center">
+                <a href="https://www.facebook.com/profile.php?id=100002948024431" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://github.com/Thiago-spba" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.tiktok.com/@thiagoalves_sp?_t=8q07TwjUjnJ&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a>
+            </div>
+            <p class="text-sm mt-4">&copy; 2024 Thiago Fernando. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+<script>
+        function expandirTexto(id, botao) {
+            const elemento = document.getElementById(id);
+            elemento.classList.toggle('expandido');
+            botao.innerText = elemento.classList.contains('expandido') ? 'Mostrar Menos' : 'Continuar Lendo...';
+        }
+    </script>
+</body>
+</html>

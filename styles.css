@@ -1,0 +1,154 @@
+/* Variáveis para o tema */
+:root {
+  --bg-color: #121212;
+  --text-color: #f0f0f0;
+  --accent-color: #007bff; /* Azul */
+  --highlight-color: #4CAF50; /* Verde para destaque */
+  --light-green: #8BC34A; /* Verde claro para a faixa */
+}
+
+/* Estilo do body */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+/* Estilo geral */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+  background-color: var(--bg-color);
+  padding: 20px 0;
+}
+
+header .flex {
+  display: flex;
+  align-items: center; /* Alinhamento vertical centralizado */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  gap: 20px; /* Espaçamento entre a imagem e o texto */
+}
+
+/* Ajuste do espaçamento */
+header img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 0; /* Remove qualquer espaçamento inferior */
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 5px; /* Pequeno espaçamento entre o nome e a descrição */
+}
+
+header p {
+  font-size: 1.25rem;
+  margin-bottom: 0; /* Remove espaçamento extra abaixo da descrição */
+}
+
+/* Redução do espaçamento entre o cabeçalho e a seção 'Sobre Mim' */
+main {
+  margin-top: 20px; /* Ajusta a margem superior para aproximar a sessão 'Sobre Mim' */
+}
+
+/* Títulos */
+h1, h2, h3 {
+  color: var(--highlight-color);
+}
+
+/* Ajustes de espaçamento para as seções */
+section {
+  padding: 30px 0; /* Espaçamento interno reduzido */
+}
+
+/* Estilos da Formação e Cursos */
+.formacao-grid,
+.cursos-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .formacao-grid,
+  .cursos-grid {
+      grid-template-columns: 1fr 1fr; /* Duas colunas em telas maiores */
+  }
+}
+
+/* Estilos para o formulário */
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #1c1c1c;
+  color: #fff;
+}
+
+/* Botões */
+.continuar-lendo, .ver-mais {
+  background-color: var(--highlight-color); /* Verde */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* Estilo do texto encurtável */
+.texto-encurtavel {
+  max-height: 150px;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.texto-encurtavel.expandido {
+  max-height: 1000px;
+}
+
+/* Estilo do rodapé */
+footer {
+  background-color: var(--bg-color);
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer .social-icons {
+  font-size: 2rem;
+}
+
+footer .social-icons a {
+  color: var(--highlight-color); /* Ícones em verde */
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+footer .social-icons a:hover {
+  color: white;
+}
+
+footer p {
+  margin-top: 10px;
+  color: var(--text-color);
+  text-align: center;
+}
